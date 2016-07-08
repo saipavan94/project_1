@@ -1,0 +1,298 @@
+body{
+  margin-top: 30px;
+  background: url(../images/bak.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: 0px 30px;
+  margin: auto;
+
+}
+.head
+{
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+}
+.city{
+  width: 160px;
+  background-color: #666;
+  border-radius: 3px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 30px;
+}
+.city p{
+  padding: 5px 0 0 10px;
+}
+.city p:after{
+content: "| ";
+  padding-left:50px;
+}
+.head_right{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.head_right a{
+  text-decoration: none;
+  color: white;
+}
+.head_right a:after{
+  content: "|";
+  margin: 5px ;
+}
+.head_right a:last-child:after
+{
+  content: none;
+}
+.side{
+  position: relative;
+  clear:both;
+  float:left;
+  width: 20%;
+  background: rgba(0,0,0,0.4);
+  min-height: 600px;
+  height: 100vh;
+}
+.imgs{
+  width: 100%;
+  padding: 100px 0 100px 0;
+
+}
+.cato{
+  width: 100%;
+  text-align: center;
+  font-family:'Muli', sans-serif;
+  font-size:15px;
+}
+.cato a{
+  text-decoration: none;
+  color: #999;
+}
+.catp{
+  padding: 12%;
+  margin-bottom: 0;
+}
+.cato:hover{
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  cursor: pointer;
+  color: #202020;
+}
+.cato p:hover{
+  color:#a6a6a6;;
+}
+.foo{
+  clear: both;
+  bottom: -2px;
+  background: rgba(1, 1, 1, 0.7);
+  width: 100%;
+  height: 8vh;
+  position: relative;
+  bottom: 0;
+}
+.maindetail{
+  width: 75%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.mainbody{
+  margin-top: 40px;
+  min-height: 100%;
+}
+.f1 ,.f2, .f3, .f4{
+  float: left;
+  margin-left:7px;
+
+  height: 8vh;
+  width: 70px;
+}
+.f1{
+margin-left: 40%;
+}
+
+#big_title  {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.6;
+}
+#small_title {
+  font-family:"Century Gothic", sans-serif ;
+font-weight: 300;
+color:white;
+opacity: 0.5;
+}
+.search{
+  width: 750px;
+  background: rgba(255,255,255,0.2);
+  height: 60px;
+  margin-top: 50px;
+  padding-left: 10px;
+  margin-left: 80px;
+  text-align: center;
+
+}
+.dates p{
+  color: white;
+  font-weight: 500;
+  opacity: 0.7;
+  padding: 5px;
+
+}
+.dates{
+width:150px;
+opacity: 20;
+margin: 15px;
+background: rgba(0,0,0,0.4);
+height: 30px;
+float: left;
+border:none;
+
+}
+.type{
+  width: 200px;
+  background: rgba(255,68,68,0.6);
+
+
+}
+.greensearch{
+  background: rgba(87,206,36,0.4);
+  width: 120px;
+  color: white;
+
+}
+.greensearch:hover{
+  background:  rgba(87,206,36,0.6);
+  cursor: pointer;
+}
+
+.quote{
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 500px;
+  color: rgba(255,255,255,0.5);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+.quotemsg:before{
+  content: ' " ';
+
+}
+.quotemsg:after{
+  content: ' " ';
+
+}
+.quotemsg{
+  width: 450px;
+  margin-left: 20px;
+}
+.fo{
+  margin-bottom: 0px;
+  padding-top: 14px;
+
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(225,225,225,0.5);
+}
+.abc{
+  height: 100%;
+  background: url(../images/bak2.jpg) no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+}
+.cent{
+  position:absolute;
+  margin-left:30%;
+  top: 230px;
+  width: 600px;
+  height:230px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.b1, .b2, .b3{
+  width: 100%;
+  height: 50px;
+
+  margin-top: 20px;
+}
+
+.b12, .b11{
+  width: 250px;
+  height: 40px;
+  float: left;
+  background:rgba(255,0,0,0.8);
+  margin-top: 5px;
+  margin-left: 30px;
+  border-radius: 6px;
+  font-size: 20px;
+text-align: center;
+  color:white;
+font-family: 'Droid Sans', sans-serif;
+}
+.b11 p,.b12 p{
+  float: left;
+  width: 200px;
+  margin-top: 3px;
+}
+.b11 i,.b12 i{
+  margin-top: 10px;
+  float: left;
+  width: 50px;
+  margin-left: 0;
+}
+.b13{
+  margin-left: 90px;
+  width:400px;
+  height: 40px;
+  background: rgba(77,221,15,0.8);
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  font-family: 'Droid Sans', sans-serif;
+}
+.b13 p{
+  margin-top: 3px;
+    width: 350px;
+    float: left;
+}
+.b13 i{
+  margin-top: 10px;
+  float: left;
+  width: 50px;
+  margin-left: 0;
+}
+.sidecent{
+  position:absolute;
+  margin-left:28%;
+  top: 230px;
+  width: 30px;
+  height:230px;
+  background: rgba(225, 0, 0, 0.7);
+}
+.cc{
+float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+}
+.f{
+  margin-top:35px;
+}
+.ff{
+  margin-top: 8px;
+}

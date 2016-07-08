@@ -1,0 +1,189 @@
+.head {
+  background:#0f6cb2;
+  width: 100%;
+  height: 40px;
+}
+
+ .grid_2{
+  margin-top:9px;
+  text-align: center;
+}
+.b{
+  margin-left: 70px;
+}
+.ah{
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Droid Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.ah .grid_2:hover{
+background: white;
+color: black;
+border-radius:4px;
+}
+.search{
+  background:
+}
+.bot{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.c{
+  margin-top: 0px;
+}
+.c1{
+  margin-top: 10px;
+}
+
+.grid_4{
+  margin-left: 5px;
+  height: 250px;
+  margin-top: 15px;
+}
+.title{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0px;
+
+}
+.grid_8{
+  margin-left: 0px;
+}
+.year, .insurance, .km, .owners{
+
+  margin-left: 50px;
+  width: 100px;
+  height: 40px;
+  float: left;
+  border-radius: 6px;
+  border:1px solid #5A5F62;
+}
+.year{
+  margin-left: 6px;
+}
+.mid{
+  margin-top: 10px;
+}
+.down{
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 100%;
+
+  border-radius: 5px;
+}
+.title p{
+  font-family: 'Bitter', serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+.icon{
+  margin-left: 5px;
+  width: 15px;
+  float: left;
+  height: 20px;
+  margin-top: 10px;
+}
+.bodi{
+  margin-left: 3px;
+  width: 75px;
+  height: 40px;
+  float: left;
+  margin-right: 2px;
+
+}
+.small{
+  font-size:10px;
+  font-weight: 600;
+  color: #919095;
+  margin-bottom: 0;
+font-family: 'Merriweather', serif;
+}
+.big{
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 3px;
+}
+.location, .cost , .contact{
+  width:180px;
+  height: 40px;
+  background: rgba(0, 0, 0,0.4);
+  border-radius: 4px;
+  float: left;
+  margin-left: 5px;
+}
+.location p{
+  margin-top: 1px;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+   font-family: 'Signika', sans-serif;
+}
+.lft{
+  float: left;
+  width: 50px;
+  height:40px;
+  margin-top: 2px;
+  text-align: center;
+  font-size: 23px;
+  color:black;
+}
+.ri{
+  float: left;
+  width: 150px;
+  height: 40px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.phone{
+  text-decoration: none;
+}
+.phone p{
+  margin-top: 1px;
+  margin-left: 8px;
+  color:black;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Signika', sans-serif;
+}
+.cost p{
+  margin-top: 1px;
+  margin-left: 10px;
+  color:black;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'News Cycle', sans-serif;
+}
+.contact{
+  background:rgba(53,119,2,0.7);
+}
+p.big.m{
+margin-left:20px;
+}
+.specs{
+  width: 100%;
+  height:70px;
+  overflow: hidden;
+}
+.specs li{
+  display: inline;
+  font-family: 'Signika', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  overflow: hidden;
+  margin-left: 3px;
+  color: #666;
+
+}
+.specs li:before{
+  content: ">";
+}
+.list{
+float: left;
+width: 150px;
+height: 25px;
+}

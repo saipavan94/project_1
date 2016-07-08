@@ -1,0 +1,110 @@
+body{
+  margin-top: 30px;
+  background: url(../images/bak.jpg) no-repeat;
+  background-size:cover;
+  background-position: 0px 30px;
+  margin: auto;
+
+}
+.head
+{
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+}
+.city{
+  width: 160px;
+  background-color: #666;
+  border-radius: 3px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 30px;
+}
+.city p{
+  padding: 5px 0 0 10px;
+}
+.city p:after{
+content: "| ";
+  padding-left:50px;
+}
+.head_right{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.head_right a{
+  text-decoration: none;
+  color: white;
+}
+.head_right a:after{
+  content: "|";
+  margin: 5px ;
+}
+.head_right a:last-child:after
+{
+  content: none;
+}
+.side{
+  clear:both;
+  float:left;
+  position: absolute;
+  top:40px;
+  width: 300px;
+  background: rgba(0,0,0,0.4);
+}
+.imgs{
+  width: 300px;
+  height: 160px;
+
+}
+.cato{
+  width: 300px;
+  height:118px;
+  text-align: center;
+  font-family:'Muli', sans-serif;
+  font-size:15px;
+}
+.cato a{
+  text-decoration: none;
+  color: #999;
+}
+.catp{
+  padding: 30px;
+}
+.cato:hover{
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  cursor: pointer;
+  color: #202020;
+}
+.cato p:hover{
+  color:#a6a6a6;;
+}
+.foo{
+  position:relative;;
+  top: 70px;
+  background: rgba(1, 1, 1, 0.7);
+  width: 100%;
+  height: 70px;
+}
+.mainbody{
+height: 600px;
+}
+.f1 ,.f2, .f3, .f4{
+  float: left;
+  margin-left: 50px;
+  background: red;
+  height: 70px;
+  width: 70px;
+}
+.f1{
+margin-left: 35%;
+}
