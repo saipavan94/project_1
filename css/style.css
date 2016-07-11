@@ -5,6 +5,7 @@ body{
   background-position: 0px 30px;
   margin: auto;
 }
+
 .head
 {
   background: black;
@@ -26,14 +27,31 @@ body{
   top: 0;
   left: 10px;
   height: 30px;
-
+  float: left;
 }
 .city p{
+
   padding: 5px 0 0 10px;
+
 }
 .city p:after{
 content: "| ";
-  padding-left:50px;
+  padding-left:30px;
+}
+.fa-user{
+  color: white;
+}
+.loclogo{
+
+  margin-top: 0px;
+}
+.la1{
+  width: 140px;
+  height: 30px;
+  float: left;
+}
+.ra1{
+  margin: 5px 0 0 0;
 }
 .head_right nav{
   overflow: hidden;
@@ -66,9 +84,12 @@ content: "| ";
   height: 100vh;
 }
 .imgs{
-  width: 100%;
-  padding: 100px 0 100px 0;
-
+  width: 260px;
+  height: 190px;
+}
+.iml{
+  margin-left: 80px;
+  margin-top: 80px;
 }
 .cato{
   width: 100%;
@@ -302,7 +323,7 @@ float: left;
 .title2{
   position:absolute;
   top:150px;
-  left: 630px;
+  left: 600px;
   text-align: center;
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
