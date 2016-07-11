@@ -4,7 +4,6 @@ body{
   background-attachment: fixed;
   background-position: 0px 30px;
   margin: auto;
-
 }
 .head
 {
@@ -27,6 +26,7 @@ body{
   top: 0;
   left: 10px;
   height: 30px;
+
 }
 .city p{
   padding: 5px 0 0 10px;
@@ -35,7 +35,11 @@ body{
 content: "| ";
   padding-left:50px;
 }
+.head_right nav{
+  overflow: hidden;
+}
 .head_right{
+
   position: absolute;
   right: 10px;
   top: 8px;
@@ -224,7 +228,6 @@ border:none;
 .b1, .b2, .b3{
   width: 100%;
   height: 50px;
-
   margin-top: 20px;
 }
 
@@ -295,4 +298,37 @@ float: left;
 }
 .ff{
   margin-top: 8px;
+}
+.title2{
+  position:absolute;
+  top:150px;
+  left: 630px;
+  text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.6;
+}
+.downfrbuy{
+  margin-top: 150px;
+  margin-left: 200px;
+  width:500px;
+  height: 100px;
+}
+.downfrbuy p{
+font-family: "Century Gothic", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(255, 225, 225, 0.5);
+}
+
+.ic{
+  margin-left: 200px;
+  width:50px;
+  height: 50px;
+  color: rgba(255, 225, 225, 0.5);
+  font-size: 30px;
+
 }

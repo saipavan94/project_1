@@ -187,3 +187,24 @@ float: left;
 width: 150px;
 height: 25px;
 }
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: #0f6cb2;
+  height: 50px;
+
+}
+li a{
+  color: white;
+  font-size: 20px;
+margin-left: 50px;
+}
+li{
+  list-style: none;
+  display: inline;
+
+}
+.ul1{
+  margin-left: 125px;
+}
