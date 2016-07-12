@@ -1,5 +1,5 @@
 body{
-  zoom: 85%;
+  zoom: 75%;
 }
 .head1
 {
@@ -12,7 +12,7 @@ body{
   z-index: 1;
 }
 .city{
-  width: 160px;
+  width: 170px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   font-family: sans-serif;
@@ -46,7 +46,7 @@ content: "| ";
   float: left;
 }
 .ra1{
-  margin: 5px 0 0 0;
+  margin: 8px 0 0 0;
 }
 .head_right nav{
   overflow: hidden;
@@ -163,10 +163,10 @@ hr{
 {
   float: left;
   width:100px;
-  font-family: sans-serif;
+  font-family:'Signika', sans-serif;
   font-size: 15px;
   margin-top: 8px;
-  margin-left: 2px;
+  margin-left: 5px;
 
 }
 .logo1{
@@ -185,6 +185,7 @@ hr{
   margin-top: 06px;
 }
 .cost2:after{
+  font-family:'Signika', sans-serif;
   color:grey;
   font-size: 18px;
   content: "/day"
